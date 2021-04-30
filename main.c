@@ -1,15 +1,14 @@
 /**
   ******************************************************************************
   * @file    main.c
-  * @author  Ac6
+  * @author  Johannes Schadow
   * @version V1.0
-  * @date    01-December-2013
-  * @brief   Default main function.
+  * @date    15-April-2021
   ******************************************************************************
 */
 
 //
-//  Pin Ref
+//  Pin Reference
 //  PB4,5 - Left Motor Controller IN1,2             - TIM3_CH1,2
 //  PB0,1 - Right Motor Controller IN1,2            - TIM3_CH3,4
 
@@ -40,7 +39,7 @@
 //  PA5   - bq Coulomb Counter ALERT1
 //  PA4   - bq Coulomb Counter ALERT2
 
-//  PC10 - Completed debug cycle signal
+//  PC10  - Heartbeat Signal
 
 
 #include "stm32f0xx.h"
